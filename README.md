@@ -51,45 +51,45 @@ Now browse to the app at `http://localhost:8000/app`.
 
 ```
 app/                                            --> all of the source files for the application
-| --- assets/               
-| --- bower_components/                         
-| --- components/                               
-| --- modules/
-      | --- base/
-            | --- appConst.js
-            | --- appService.js
-            | --- appUrl.js
-            | --- appUtil.js
-            | --- module.js
-      | --- home/
-            | --- config.js
-            | --- home.html
-            | --- homeCtrl.js
-            |--- module.js
-      | --- layout/
-            | --- partials/
-                  | --- footer.tpl.html
-                  | --- header.tpl.html
-                  | --- navigation.tpl.html
-            | --- config.js
-            | --- layout.tpl.html
-            | --- module.js
-            | --- rootCtrl.js
-| --- appConfig.js
-| --- index.html
-| --- main.js
-| --- rconfig.js
-| --- built/
+      | --- assets/               
+      | --- bower_components/                         
+      | --- components/                               
+      | --- modules/
+            | --- base/
+                  | --- appConst.js
+                  | --- appService.js
+                  | --- appUrl.js
+                  | --- appUtil.js
+                  | --- module.js
+            | --- home/
+                  | --- config.js
+                  | --- home.html
+                  | --- homeCtrl.js
+                  |--- module.js
+            | --- layout/
+                  | --- partials/
+                        | --- footer.tpl.html
+                        | --- header.tpl.html
+                        | --- navigation.tpl.html
+                  | --- config.js
+                  | --- layout.tpl.html
+                  | --- module.js
+                  | --- rootCtrl.js
+      | --- appConfig.js
+      | --- index.html
+      | --- main.js
+      | --- rconfig.js
+built/
       | --- assets/
       | --- app-combined.[encode].js
       | --- app.min.[encode].css
       | --- index.html
-| --- e2e-tests
-| --- node_modules
-| --- appfile.json
-| --- bower.json
-| --- Gruntfile.js
-| --- package.json
+e2e-tests
+node_modules
+appfile.json
+bower.json
+Gruntfile.js
+package.json
 ```
 
 ### How to build angular-blank project
