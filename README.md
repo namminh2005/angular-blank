@@ -12,8 +12,8 @@ To get you started you can simply clone the angular-blank repository and install
 2. Git:                   [http://git-scm.com/](http://git-scm.com/)
 
 Text Editor:
-1. Sublime text           https://www.sublimetext.com/
-2. Visual Studio Code     https://code.visualstudio.com/
+1. Sublime text           [https://www.sublimetext.com/](https://www.sublimetext.com/)
+2. Visual Studio Code     [https://code.visualstudio.com/](https://code.visualstudio.com/)
 
 ### Clone angular-blank project
 
