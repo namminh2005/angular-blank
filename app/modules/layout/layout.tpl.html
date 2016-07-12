@@ -1,0 +1,46 @@
+<!-- HEADER -->
+<div ng-include="'modules/layout/partials/header.tpl.html'" class="placeholder-header"></div>
+<!-- END HEADER -->
+
+
+<!-- Left panel : Navigation area -->
+<!-- Note: This width of the aside area can be adjusted through LESS variables -->
+<div ng-include="'modules/layout/partials/navigation.tpl.html'" class="placeholder-left-panel"></div>
+
+<!-- END NAVIGATION -->
+
+<!-- MAIN PANEL -->
+<div id="main" role="main">
+
+    <!-- RIBBON -->
+    <div id="ribbon">
+
+		<span class="ribbon-button-alignment">
+			<span id="refresh" class="btn btn-ribbon" reset-widgets
+                  tooltip-placement="bottom"
+                  tooltip-html-unsafe="<i class='text-warning fa fa-warning'></i> Warning! This will reset all your widget settings.">
+				<i class="fa fa-refresh"></i>
+			</span>
+		</span>
+
+        <!-- breadcrumb -->
+        <!-- <state-breadcrumbs></state-breadcrumbs> -->
+        <!-- end breadcrumb -->
+
+
+    </div>
+    <!-- END RIBBON -->
+
+
+    <div>
+        <div ui-view="content" data-autoscroll="false"></div>
+    </div>
+
+</div>
+<!-- END MAIN PANEL -->
+
+<!-- PAGE FOOTER -->
+<div ng-include="'modules/layout/partials/footer.tpl.html'"></div>
+<!-- END PAGE FOOTER -->
+
+
