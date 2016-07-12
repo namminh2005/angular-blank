@@ -75,14 +75,14 @@ app/                                            --> all of the source files for 
             | --- layout.tpl.html
             | --- module.js
             | --- rootCtrl.js
-      | --- appConfig.js
-      | --- index.html
-      | --- main.js
-      | --- rconfig.js
+| --- appConfig.js
+| --- index.html
+| --- main.js
+| --- rconfig.js
 | --- built/
       | --- assets/
       | --- app-combined.[encode].js
-      | --- app.min.[encode]
+      | --- app.min.[encode].css
       | --- index.html
 | --- e2e-tests
 | --- node_modules
